@@ -3,7 +3,7 @@ exports.handler = function(event, context, callback) {
   const metadata =  {
 
     // both opensea and rarebits
-    "name": "1Token #" + tokenId,
+    "name": "2Token #" + tokenId,
     "description": "This is a basic NFT with token Id #" + tokenId,
 
     // opensea
