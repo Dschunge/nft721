@@ -2,10 +2,10 @@
   functions = "functions"
 [[redirects]]
   from = "/metadata/:tokenId"
-  to = "/functions/metadata?tokenId=:tokenId"
+  to = "/.netlify/functions/metadata?tokenId=:tokenId"
   force = true
   query = {tokenId = ":tokenId"}
   status = 200
 [[redirects]]
   from = "/"
-  to = "/functions/metadata"
+  to = "/.netlify/functions/metadata"
