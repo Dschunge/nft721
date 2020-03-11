@@ -1,5 +1,5 @@
 [build]   
-  functions = "functions"
+  functions = "/.netlify/functions"
 [[redirects]]
   from = "/metadata/:tokenId"
   to = "/.netlify/functions/metadata?tokenId=:tokenId"
