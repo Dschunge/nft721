@@ -1,7 +1,11 @@
-[build]
+[build]   
   functions = "functions"
-  
 [[redirects]]
   from = "/metadata/:tokenId"
-  to = "/.netlify/functions/metadata?tokenId=:tokenId"
-  status = 200  
+  to = "/functions/metadata?tokenId=:tokenId"
+  force = true
+  query = {tokenId = ":tokenId"}
+  status = 200
+[[redirects]]
+  from = "/"
+  to = "/functions/metadata"
